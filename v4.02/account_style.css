@@ -1,0 +1,60 @@
+html * {
+    font-family: 'Cinzel';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #222;
+    background-color: rgb(232, 243, 237) !important;
+}
+    .login-cont{
+        max-width: 500px !important;
+    }
+    .main_page h1{
+        color: #074e37;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .main_page h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .main_page a{
+        text-decoration: none;
+        color: #009664;
+        font-weight: 600;
+    }
+    .main_page a:hover{
+        color: #38d19e;
+        font-weight: 600;
+    }
+    input[type=text], input[type=email], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #1c5a45;
+        box-sizing: border-box;
+        border-radius: 10px;
+        }
+        
+        .btn-new {
+        background-color: rgb(55, 106, 91);
+        color: rgb(238, 250, 241);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        transition: transform 0.2s ease;
+        font-size: 20px;
+        }
+
+        .btn-new:hover{
+            transform: scale(1.05);
+            opacity: 0.9;
+        }

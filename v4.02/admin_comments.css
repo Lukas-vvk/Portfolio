@@ -1,0 +1,48 @@
+.comment-administration {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.comment-table-container {
+    display: inline-block; 
+}
+
+.comment-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
+    min-width: 700px;
+}
+
+.table-header {
+    background-color: #1e5043;
+    color: white;
+}
+
+.comment-table th, .comment-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.action-link {
+    text-decoration: none;
+    color: #013022;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+.no-comment {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+}

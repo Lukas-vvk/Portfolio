@@ -1,0 +1,117 @@
+.container-com {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#comments-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    width: 100%;
+}
+
+.comment-content {
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+
+.comment-reply {
+    margin-left: 20px;
+}
+
+#comment-form {
+    margin-top: 20px;
+}
+
+#comment-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.comment-btn {
+    padding: 10px 20px;
+    background-color: #c9c9c9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-btn:hover {
+    background-color: #979797;
+}
+.delete-comment {
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    border: none;
+}
+.delete-comment:hover {
+    background-color: #c7c7c7;
+    border-radius: 30px;
+}
+
+.replies-container {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #f9f9f9;
+}
+.reply-comment-btn{
+    display: block;
+    font-size: 14px;
+    border: none; 
+    background-color: #f9f9f9;
+    }
+.reply-comment-btn:hover {
+    background-color: #c7c7c7;
+    border-radius: 30px;
+}
+.reply {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.reply-text {
+    position: relative;
+    background-color: #f9f9f9;
+    width: 100%;
+    resize: none;
+}
+.cancel-reply {
+    background-color: #f9f9f9;
+    border: none;
+    font-size: 16px;
+}
+.cancel-reply:hover {
+    background-color: #c7c7c7;
+    border-radius: 30px;
+}
+.submit-reply {
+    background-color: #f9f9f9;
+    left: 10%;
+    border: none;;
+    font-size: 16px;
+}
+.submit-reply:hover {
+    background-color: #c7c7c7;
+    border-radius: 30px;
+}
+.reply-reply-btn {
+    display: block;
+    top: 20px;
+}

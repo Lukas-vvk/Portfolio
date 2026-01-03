@@ -1,0 +1,195 @@
+html * {
+    font-family: 'Cinzel';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #222;
+    background-color: rgb(232, 243, 237) !important;
+}
+.container .main{
+    background-color: rgb(217, 230, 222);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px;
+    position: relative;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border: none !important;
+}
+
+.container .side{
+    border-top: 5px solid rgb(217, 230, 222)!important;
+    border-bottom: 5px solid rgb(217, 230, 222) !important;
+    border-right: 5px solid rgb(217, 230, 222) !important;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+}
+
+.sticky-wrapper{
+    z-index: 1;
+}
+
+.container .list_cont{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: rgb(170, 213, 200);
+    border-radius: 5px;
+}
+
+ul.list {
+    list-style: upper-roman;
+    padding-left: 20px;
+  }
+
+.map-hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    margin: 15px 0;
+}
+
+.headline_link{
+    text-decoration: none;
+    color: rgb(20, 144, 103);
+}
+
+.headline{
+    background-color: rgb(170, 213, 200);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.headline_link:hover,
+.headline_link:active{
+    text-decoration:none;
+    color: rgb(8, 209, 166);
+}
+
+.modalImg{
+    max-height: 80vh !important;
+}
+
+.img-thumbnail{
+    padding: 8px;
+    max-height: 200px;
+    background-color: transparent !important;
+    border: none !important;
+    transition: transform 0.3s ease;
+}
+
+.img-thumbnail-float{
+    max-height: 200px;
+    max-width: 40vw;
+    background-color: transparent !important;
+    padding: 8px;
+    border: none !important;
+    transition: transform 0.3s ease;
+    float: right;
+}
+
+.modal-content{
+    background-color: rgb(192, 227, 212) !important;
+    border: none !important;
+}
+
+.imageCaption {
+    position: relative;
+    font-size: 12px;
+}
+
+.img-thumbnail:hover, .img-thumbnail-float:hover{
+    transform: scale(1.1);
+}
+
+.info-table{
+    max-width: 17vw;
+    float: right;
+    border: 2px solid rgb(43, 87, 80) !important;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.table-head{
+    text-align: center;
+    background-color: rgb(43, 87, 77);
+    font-size: 120%;
+    padding: 1rem;
+    color: white;
+}
+
+.popularList-item{
+    text-decoration: none;
+    color: rgb(20, 144, 107);
+    font-weight: bold;
+}
+
+.popularList-item:hover,
+.popularList-item:active{
+    text-decoration:none;
+    color: rgb(85, 218, 173);
+}
+
+.popular_p_img{
+    max-height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    color: #ffffff !important;
+    border-color: transparent !important;
+    background-color: rgb(70, 114, 99) !important;
+    transition: transform 0.2s ease !important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(55, 92, 84) !important;
+    transform: scale(1.1) !important;
+}
+
+
+@media (max-width: 991px) {
+    .container .side{
+        border-top: none !important;
+        border-top: 5px solid rgb(217, 230, 222)!important;
+        border-bottom: 5px solid rgb(217, 230, 222) !important;
+        border-right: 5px solid rgb(217, 230, 222) !important;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .container .main{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .carousel {
+    max-height: 1000px;
+    max-width: 1000px;
+    background-color: rgb(170, 204, 193);
+    overflow: hidden
+}
+
+

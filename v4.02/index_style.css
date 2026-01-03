@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #222;
+    padding-bottom: 50px;
+}
+.background{
+    background-image: url(media/images/for3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    max-height: 400px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+    border-radius: 4px;
+}
+
+.introduction {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: justify;
+    font-family: 'Lato';
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.introduction h2 {
+    font-size: 45px;
+    text-align: center;
+}
+.introduction p, a {
+    font-size: 28px;
+}
+
+        .baneris1 h1, p, a {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato';
+        }
+        .baneris1 h1 {
+        font-size: 2.8em;
+        padding: 10px 0;
+        font-weight: 800;
+        }
+        .baneris1 p {
+        font-size: 1.1em;
+        font-weight: 100;
+        letter-spacing: 5px;
+        }
+        .baneris1 {
+        width: 100%;
+        padding:60px 0;
+        text-align: center;
+        background: #2d8673;
+        color: white;
+        }
+        .baneris-m {
+        font-size: 20px;
+        display: inline-block;
+        background-color: #277463;
+        border: 1px solid #216355;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 700;
+        margin-top: 30px; 
+        color: #dafff9;
+        text-decoration-line: none;
+        }
+        .baneris-m:hover {
+        background-color: white;
+        color: #075252;
+        text-decoration-line: none;
+        }
+        .baneris1 img{
+            width: 300px;
+            height: 300px;
+            margin-top: 20px;
+            border-radius: 200px;
+        }
+
+        .main1{
+            background-color: rgb(15, 56, 54);
+            align-items: center;
+            text-align: center;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: relative;
+            padding: 30px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .main1 h3{
+            align-items: center;
+            color: rgb(234, 243, 241);
+            transition: text-shadow 0.3s ease-in-out;
+            font-size: 30px;
+        }
+
+        .main1 h3:hover{
+                text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+                             0 0 20px rgba(255, 255, 255, 0.5);
+            }
+        .main2 {
+            background-color: rgb(15, 56, 54);
+            align-items: center;
+            text-align: center;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            position: relative;
+            padding: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .main2 h3{
+            align-items: center;
+            color: rgb(234, 243, 241);
+            transition: text-shadow 0.3s ease-in-out;
+            font-size: 30px;
+        }
+        .main2 h3:hover{
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+                         0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        .cat-container {
+            position: relative;
+        }
+    
+        .cat-container img {
+            transition: 0.2s ease;
+            max-width: 60vw;
+        }
+    
+        .cat-container:hover img,
+        .cat-container:active img {
+            transform: scale(0.9) rotate(5deg);
+        }
+    
+        .categor .col img {
+            width: auto;
+            max-height: 200px;
+            position: relative;
+        }
+    
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 28px;
+            font-weight: bold;
+            color: rgb(23, 44, 39);
+            text-shadow: -2px -2px 0 white,  
+                        2px -2px 0 white,
+                        -2px  2px 0 white,
+                        2px  2px 0 white;
+        }
+    
+        .button-link {
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        .button-link:hover
+        .button-link:active {
+            text-decoration: none;
+            color:#555
+        }
+    
+        .cat-container:hover .text-overlay,
+        .cat-container:active .text-overlay {
+            color: rgb(23, 87, 73);
+        }
